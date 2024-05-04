@@ -2,7 +2,7 @@ import cv2
 import face_recognition
 
 # Carrega a imagem
-image = face_recognition.load_image_file("data/test2.jpeg")
+image = face_recognition.load_image_file("data/caio.jpeg")
 
 # Localiza os rostos na imagem
 face_locations = face_recognition.face_locations(image)
